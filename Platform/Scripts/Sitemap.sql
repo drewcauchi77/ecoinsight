@@ -1,0 +1,2 @@
+--*** Insert into sitemap table
+--INSERT INTO Sitemap(Url, ShouldScrape, SiteId) VALUES('Url', 0, (SELECT Id FROM Site WHERE Url = 'https://www.example.com'));

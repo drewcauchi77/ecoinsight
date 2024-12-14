@@ -1,0 +1,15 @@
+✓ Sites can have more than 1 sitemap
+  ✓ Tackle C#
+  ✓ Tackle API response
+  ✓ Tackle Python scrape
+
+TODO
+- Pass data from AI to clean recipe title (- Vegan, - Adjectives)
+- Add record of time when last was scraped
+- Ingredients setup for recipes
+- Last modified date for each recipe
+- Ingredients should be clean for Eco score
+- Recipe images
+  - For now hardcoded in the DB?
+  - Using Cloudflare Workers AI
+- Setup of homepage visuals on mob app

@@ -32,7 +32,7 @@ namespace Platform.Controllers
             {
                 return BadRequest("Recipe is null");
             }
-
+            
             await _recipeRepository.CreateRecipe(recipe);
             return CreatedAtAction(nameof(Get_AllRecipes), new { id = recipe.Id }, recipe);
         }
